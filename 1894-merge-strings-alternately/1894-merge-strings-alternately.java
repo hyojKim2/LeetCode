@@ -1,31 +1,18 @@
 class Solution {
     public String mergeAlternately(String word1, String word2) {
         
-        
-        // 짧은 것 
-        int minLength = Math.min(word1.length(), word2.length());
-        // 문자열 두 개 중 더 긴 것의 길이 
-        int maxLength= Math.max(word1.length(), word2.length());
-        
-        String longString = "";
+        StringBuilder result = new StringBuilder();
+        int i=0;
 
-        if(word1.length() > word2.length()){
-            longString=word1;
+        while(i<word1.length() || i < word2.length()){
+            if(i<word1.length()){
+                result.append(word1.charAt(i));
+            }
+            if(i<word2.length()){
+                result.append(word2.charAt(i));
+            }
+            i++;
         }
-        else{
-            longString=word2;
-        }
-        
-
-        String answer="";
-
-        for(int i=0;i<minLength;i++){
-            answer+= "" + word1.charAt(i) + word2.charAt(i);
-        }
-
-
-
-        return answer + longString.substring(minLength );
-
+        return result.toString();
     }
 }
