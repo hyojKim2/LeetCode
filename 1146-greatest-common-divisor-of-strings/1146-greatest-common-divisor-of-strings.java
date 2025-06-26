@@ -1,7 +1,7 @@
 class Solution {
 
     //최대공약수에서 x,y와 y,r의 최대공약수는 같다는 점을 이용
-    // x%y = r  - > y%r=0이 되는 r이 최대공약수이다. 
+    // x%y = r  - > y%r=0이 되는 y이 최대공약수이다. 
     int getGcdLength(int a, int b){
         if(b==0){
             return a;
