@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/hyojKim2/LeetCode/tree/master/0001-two-sum) |
+| [1528-kids-with-the-greatest-number-of-candies](https://github.com/hyojKim2/LeetCode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 ## Hash Table
 |  |
 | ------- |
