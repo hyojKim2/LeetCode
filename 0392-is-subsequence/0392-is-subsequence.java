@@ -3,19 +3,6 @@ class Solution {
 
         int i=0;
         int k=0;
-
-        // if(s.length()==0 ){
-        //     return true;
-        // }
-
-        // if(t.length()==0){
-        //     return false;
-        // }
-
-        // if(s.length()==1 && t.length()==1){
-        //     return s.equals(t);
-        // }
-
         String answer ="";
 
         while( k  < t.length() &&  i <s.length()){
