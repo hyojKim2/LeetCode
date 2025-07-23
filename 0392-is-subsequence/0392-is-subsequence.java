@@ -3,35 +3,16 @@ class Solution {
 
         int i=0;
         int k=0;
-        String answer ="";
 
         while( k  < t.length() &&  i <s.length()){
-            
-            //같아질때까지
-            while( s.charAt(i) != t.charAt(k)){
-                k++;
-                if( k == t.length()){
-                    break;
-                }
+            if(s.charAt(i) == t.charAt(k)){
+                i++;
             }
-            //끝까지 다 돌은 상태
-            if( k ==t.length() && i ==s.length()-1){
-                break;
-            }
-            //같으면 
             k++;
-            answer += s.charAt(i++);
-            if( k == t.length()){
-                break;
-            }
         }
 
-        if(answer.equals(s)){
-            return true;
-        }
+        return i == s.length();
 
-
-        return false;
         
     }
 }
