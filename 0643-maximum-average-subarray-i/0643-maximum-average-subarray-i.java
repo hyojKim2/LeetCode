@@ -10,7 +10,6 @@ class Solution {
         }
         int prev = max;
 
-        System.out.println(max);
 
 
         for(int i =1 ; i <= nums.length - k; i++ ){
@@ -21,7 +20,6 @@ class Solution {
                 for(int j = i ; j<i +k ; j++){
                     prev+=nums[j];
                 }
-                System.out.println("i: " + i + " " + prev);
             }
             if(prev > max ){
                 max=prev;
