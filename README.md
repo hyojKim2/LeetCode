@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/hyojKim2/LeetCode/tree/master/0020-valid-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/hyojKim2/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/hyojKim2/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/hyojKim2/LeetCode/tree/master/0392-is-subsequence) |
@@ -109,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/hyojKim2/LeetCode/tree/master/0020-valid-parentheses) |
 | [0394-decode-string](https://github.com/hyojKim2/LeetCode/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/hyojKim2/LeetCode/tree/master/0735-asteroid-collision) |
 ## Recursion
