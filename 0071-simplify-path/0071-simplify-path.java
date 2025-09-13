@@ -1,27 +1,24 @@
 class Solution {
     public String simplifyPath(String path) {
+        String[] str = path.split("/+");
 
-        String[] words = path.split("/+"); // '/'가 하나 이상일 때 자르기 //, ///... 
-        System.out.println(String.join("+", words));
 
-        Stack<String> stack = new Stack<>();
+        Stack<String> st = new Stack<>();
+        
 
-        for(String word: words){
-            
-            if(word.equals(".") || word.equals("")){
-                continue;
-            }
-            else if(word.equals("..")){
-                if(!stack.isEmpty()){
-                    stack.pop();    
+        for (String s : str) {
+            if (s.isEmpty() || s.equals(".")) {
+                continue;  // 빈 문자열과 현재 디렉토리 무시
+            } else if (s.equals("..")) {
+                if (!st.isEmpty()) {
+                    st.pop();  // 상위 디렉토리로 이동
                 }
-            }
-            else{
-                stack.push(word);
+            } else {
+                st.push(s);  // 실제 디렉토리 추가
             }
         }
 
-        return "/"+ String.join("/", stack);
-        
+                
+        return "/" + String.join("/", st);
     }
 }
