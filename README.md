@@ -127,4 +127,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/hyojKim2/LeetCode/tree/master/0155-min-stack) |
+| [0969-number-of-recent-calls](https://github.com/hyojKim2/LeetCode/tree/master/0969-number-of-recent-calls) |
+## Queue
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/hyojKim2/LeetCode/tree/master/0969-number-of-recent-calls) |
+## Data Stream
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/hyojKim2/LeetCode/tree/master/0969-number-of-recent-calls) |
 <!---LeetCode Topics End-->
