@@ -26,9 +26,6 @@ class Solution {
         
         midIdx=size/2;
 
-        System.out.println(midIdx);
-
-        ListNode sol= null;
         curr=head;
         int cnt =0;
 
@@ -38,12 +35,8 @@ class Solution {
         while(curr!=null){
             if(cnt==midIdx-1){
                 curr.next=curr.next.next;
-                if(curr.next!=null){
-                    System.out.println(curr.val + " " + curr.next.val );
-                }
             }
 
-            ListNode temp=curr;
             curr=curr.next;
 
             cnt++;
