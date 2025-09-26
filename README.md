@@ -124,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/hyojKim2/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0394-decode-string](https://github.com/hyojKim2/LeetCode/tree/master/0394-decode-string) |
 ## Design
 |  |
@@ -139,4 +140,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0969-number-of-recent-calls](https://github.com/hyojKim2/LeetCode/tree/master/0969-number-of-recent-calls) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/hyojKim2/LeetCode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
