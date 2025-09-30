@@ -55,7 +55,7 @@ class Solution {
         cnt=0;
         curr=head;
         part=first;
-        while(cnt<mid && (curr!=null) ){
+        while(part!=null) {
             int sum = curr.val + part.val;
             if(max  <  sum){
                 max=sum;
