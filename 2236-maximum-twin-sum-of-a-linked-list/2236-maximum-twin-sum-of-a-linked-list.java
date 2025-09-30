@@ -57,7 +57,6 @@ class Solution {
         part=first;
         while(cnt<mid && (curr!=null) ){
             int sum = curr.val + part.val;
-            System.out.println("sum : " + sum);
             if(max  <  sum){
                 max=sum;
             }
