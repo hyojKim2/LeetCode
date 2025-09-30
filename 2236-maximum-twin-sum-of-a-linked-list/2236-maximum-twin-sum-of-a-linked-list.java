@@ -52,7 +52,6 @@ class Solution {
         }
 
         int max= 0;
-        cnt=0;
         curr=head;
         part=first;
         while(part!=null) {
@@ -62,7 +61,6 @@ class Solution {
             }
             curr=curr.next;
             part =part.next;
-            cnt++;
         }
         return max;
 
