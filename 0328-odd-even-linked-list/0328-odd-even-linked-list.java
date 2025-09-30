@@ -46,7 +46,7 @@ class Solution {
 
         odd.next=evenFirst;
         even.next=null;
-        return oddFirst;
+        return head;
         
     }
 }
