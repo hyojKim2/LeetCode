@@ -60,10 +60,8 @@ class Solution {
             if(max  <  sum){
                 max=sum;
             }
-            ListNode currT = curr.next;
-            ListNode partT = part.next;
-            curr=currT;
-            part =partT;
+            curr=curr.next;
+            part =part.next;
             cnt++;
         }
         return max;
