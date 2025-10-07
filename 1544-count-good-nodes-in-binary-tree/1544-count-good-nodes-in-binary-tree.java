@@ -14,24 +14,26 @@
  * }
  */
 class Solution {
-    static int good=0;
+    int answer;
     public int goodNodes(TreeNode root) {
-        // 본인 노드까지 검사
-        good=0;
+        //시
+        answer=0;
         DFS(root, root.val);
 
-        return good;
+        return answer;
+        
     }
 
     public void DFS(TreeNode root, int max){
-        if(root==null) return;
-        if(max <=root.val){
-            good++;
+        if(root==null){
+            return ;
+        }
+        if(root.val >=max){
             max=root.val;
+            answer++;
         }
         DFS(root.left, max);
         DFS(root.right, max);
 
     }
-
 }
