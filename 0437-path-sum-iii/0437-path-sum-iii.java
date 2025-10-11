@@ -17,37 +17,76 @@
 
 class Solution {
 
-    //HashMap으로 풀기
     public int pathSum(TreeNode root, int targetSum){
 
-        //누적합을 담음 
-        HashMap<Long, Integer>  map = new HashMap<>();
-        map.put(0L, 1); // 루트부터 시작하는 경로 존재시 처리. 
-        return dfs(root, 0, targetSum, map);
-
+        //dfs, 누적합
+        //
+        HashMap<Long, Integer> map = new HashMap<>();
+        map.put(0L, 1);
+        return dfs(root, targetSum, 0L, map );
     }
 
-    public int dfs(TreeNode root, long curr, int target, HashMap<Long, Integer> map ){
-
-        //핵심 개념: 현재누적합 - 이전 누적합 = target => 현재누적합 -target =이전 누적합
-        // => (1)현재누적합 -target에 일치하는 이전 누적합의 개수를 구한다. 
+    public int dfs(TreeNode root, int target, long sum, HashMap<Long, Integer> map){
 
         if(root==null) return 0;
-        
-        curr+= root.val;
-        int count = map.getOrDefault(curr-target, 0); // (1) 이전 누적합에 존재시 찾고, 없으면 0
 
-        //(2) curr을 map누적합에 넣어준다. 
-        map.put( curr, map.getOrDefault(curr, 0)+1);
+        sum+=root.val;
+        //누적합이 있나? 
+        int count = map.getOrDefault(sum-target, 0);
 
-        count+=dfs(root.left, curr, target, map);
-        count+=dfs(root.right, curr, target, map);
+        // 누적합 넣어줌. 
+        map.put(sum, map.getOrDefault(sum, 0)+1);
 
-        //백트래킹:현재 누적합 빼준다
-        map.put(curr, map.get(curr)-1);
+        count+=dfs(root.left, target, sum, map);
+        count+=dfs(root.right, target, sum, map);
+
+        //backTracking
+        map.put(sum, map.getOrDefault(sum, 0)-1);
         return count;
     }
+}
 
+
+
+
+
+
+
+
+
+
+    // //HashMap으로 풀기
+    // public int pathSum(TreeNode root, int targetSum){
+
+    //     //누적합을 담음 
+    //     HashMap<Long, Integer>  map = new HashMap<>();
+    //     map.put(0L, 1); // 루트부터 시작하는 경로 존재시 처리. 
+    //     return dfs(root, 0, targetSum, map);
+
+    // }
+
+    // public int dfs(TreeNode root, long curr, int target, HashMap<Long, Integer> map ){
+
+    //     //핵심 개념: 현재누적합 - 이전 누적합 = target => 현재누적합 -target =이전 누적합
+    //     // => (1)현재누적합 -target에 일치하는 이전 누적합의 개수를 구한다. 
+
+    //     if(root==null) return 0;
+        
+    //     curr+= root.val;
+    //     int count = map.getOrDefault(curr-target, 0); // (1) 이전 누적합에 존재시 찾고, 없으면 0
+
+    //     //(2) curr을 map누적합에 넣어준다. 
+    //     map.put( curr, map.getOrDefault(curr, 0)+1);
+
+    //     count+=dfs(root.left, curr, target, map);
+    //     count+=dfs(root.right, curr, target, map);
+
+    //     //백트래킹:현재 누적합 빼준다
+    //     map.put(curr, map.get(curr)-1);
+    //     return count;
+    // }
+
+    // 복잡도 높은 정답 
     // int target;
     // int answer=0;
     // public int pathSum(TreeNode root, int targetSum) {
@@ -77,4 +116,4 @@ class Solution {
     //     DFS(root.right, sum);
 
     // }
-}
+// }
