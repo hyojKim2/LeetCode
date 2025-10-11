@@ -14,31 +14,30 @@
  * }
  */
 class Solution {
-    int max = 0;
+    public int res = 0;
 
     public int longestZigZag(TreeNode root) {
-        dfs(root);
-        return max-1;
+        dfs(root, 1);
+        return res;
     }
 
-    // return int[]{leftZigZag, rightZigZag}
-    private int[] dfs(TreeNode node) {
-        if(node == null) return new int[]{0, 0};
+    public int dfs(TreeNode n, int leg){
+        if(n == null) return 0;
 
-        int[] left = dfs(node.left);   // 왼쪽 자식 탐색
-        int[] right = dfs(node.right); // 오른쪽 자식 탐색
+        int left = dfs(n.left, 1);
+        int right = dfs(n.right, 2);
+        res = Math.max(res, Math.max(left, right));
 
-        // 부모에서 계산
-        int leftZig = left[1] + 1;   // 왼쪽 시작 → 다음은 오른쪽
-        int rightZig = right[0] + 1; // 오른쪽 시작 → 다음은 왼쪽
-
-        max = Math.max(max, Math.max(leftZig, rightZig));
-
-        return new int[]{leftZig, rightZig};
+        if(leg == 1){
+            res = Math.max(res, left);
+            return right+1;
+        }
+        else{
+            res = Math.max(res, right);
+            return left+1;
+        }
     }
 }
-
-
     // int max;
     // public int longestZigZag(TreeNode root) {
     //     //복잡도 log(n log N) 으로 끝내야함. 
