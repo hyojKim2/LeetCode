@@ -29,15 +29,13 @@ class Solution {
         int left=dfs(n.left, 0);
         int right=dfs(n.right, 1);
 
+        //최대 값을 갱신한다. 
         max=Math.max(max, Math.max(left, right));
 
-        if(leg==0){ //left로 왔다. 
-            //max=Math.max(max, left); //max를 갱신하는 이유는
+        if(leg==0){ //left로 왔으니 right방향
             return right+1;
-
         } 
         else{
-            //max=Math.max(max, right);
             return left+1;
 
         }      
