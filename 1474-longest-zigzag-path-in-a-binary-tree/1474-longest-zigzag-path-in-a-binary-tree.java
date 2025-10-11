@@ -14,21 +14,23 @@
  * }
  */
 class Solution {
-    public int res = 0;
+    public int res = 0; //최대 지그재그 길이 
 
     public int longestZigZag(TreeNode root) {
-        dfs(root, 1);
+        dfs(root, 1); //시작 방향은 상관없음. 
         return res;
     }
 
     public int dfs(TreeNode n, int leg){
         if(n == null) return 0;
 
+        //노드의 지그재그 왼/오 최대 길이 
         int left = dfs(n.left, 1);
         int right = dfs(n.right, 2);
         res = Math.max(res, Math.max(left, right));
 
-        if(leg == 1){
+        //방향에 따른 길이 계산. 
+        if(leg == 1){ //현재 방향(내가 타고온 방향)이 left면, 오른쪽으로 가야함. 
             res = Math.max(res, left);
             return right+1;
         }
