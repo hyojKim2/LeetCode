@@ -25,7 +25,6 @@ class Solution {
         
     
         List<Integer> answer = new ArrayList<>();
-        List<TreeNode> visited = new ArrayList<>();
         
         Queue<TreeNode> q = new LinkedList<TreeNode>();
         q.offer(root);
@@ -38,7 +37,7 @@ class Solution {
 
             
             TreeNode node= q.poll();
-            visited.add(node); depth.remove(0); //방문 처리 
+            depth.remove(0); //방문 처리 
 
             //널
             if(node.left!=null) {
