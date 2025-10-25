@@ -29,7 +29,7 @@ class Solution {
             if(sum > maxSum){ 
                 maxSum=sum;
                 answer=nowLevel;
-                System.out.println(sum + " maxSum: " + maxSum + " answer "+ answer);
+                //System.out.println(sum + " maxSum: " + maxSum + " answer "+ answer);
             }
 
             if(q.size()==0) break;
