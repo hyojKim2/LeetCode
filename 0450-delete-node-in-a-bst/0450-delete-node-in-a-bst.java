@@ -13,38 +13,41 @@
  *     }
  * }
  */
-public class Solution {
-    
+class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
-        if (root == null) return null;
-        
-        if (key < root.val) {
-            // key가 작으면 왼쪽 서브트리로 이동
-            root.left = deleteNode(root.left, key);
-        } else if (key > root.val) {
-            // key가 크면 오른쪽 서브트리로 이동
-            root.right = deleteNode(root.right, key);
-        } else {
-            // key == root.val -> 삭제할 노드 찾음
-            if (root.left == null) {
-                // 왼쪽 자식 없음 → 오른쪽 자식으로 대체
-                return root.right;
-            } else if (root.right == null) {
-                // 오른쪽 자식 없음 → 왼쪽 자식으로 대체
-                return root.left;
-            } else {
-                // 두 자식 모두 존재 → 오른쪽 서브트리 최소값으로 교체
-                TreeNode minNode = findMin(root.right);
-                root.val = minNode.val; // 값 교체
-                root.right = deleteNode(root.right, minNode.val); // 최소값 삭제
+    
+        if(root==null) return null;
+        if(root.val>key) root.left= deleteNode(root.left, key);
+        else if(root.val <key) root.right= deleteNode(root.right, key);
+        else{
+            //왼쪽 자식만 존재
+            if(root.right==null){
+                root=root.left;
+                return root;
             }
+            else if(root.left==null){
+                root=root.right;
+                return root;
+            }
+            else{ //자식이 둘 다 존재 
+                TreeNode min=rightMin(root.right);
+                root.val=min.val; //교체
+                //min 노드 삭제
+                root.right = deleteNode(root.right, min.val);
+            }
+
         }
         return root;
-    }
+
     
-    // 오른쪽 서브트리의 최소값 찾기
-    private TreeNode findMin(TreeNode node) {
-        while (node.left != null) node = node.left;
-        return node;
     }
+
+    public TreeNode rightMin(TreeNode root){
+        while(root.left !=null ){
+            root=root.left;
+        }
+        return root;
+        
+    }
+
 }
