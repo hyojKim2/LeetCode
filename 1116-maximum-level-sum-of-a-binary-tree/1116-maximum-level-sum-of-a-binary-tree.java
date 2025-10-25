@@ -18,8 +18,8 @@
 class Solution {
     public int maxLevelSum(TreeNode root) {
         //복잡도는 nLog(n)이하
-        int sum=-9999999;
-        int maxSum=-9999999;
+        int sum=Integer.MIN_VALUE;
+        int maxSum=Integer.MIN_VALUE;
         int answer=999999;
         int nowLevel=0;
 
