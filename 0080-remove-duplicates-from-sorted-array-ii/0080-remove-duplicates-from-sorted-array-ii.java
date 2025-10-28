@@ -17,7 +17,7 @@ class Solution {
             
             else if(  (nums[i]!=nums[i-1] )){
                 nums[k]=nums[i];
-                cnt=1;
+                cnt=1; 
                 k++;
             }
 
