@@ -7,18 +7,12 @@ class Solution {
         int got = prices[0];
         int profit=0;
         for(int i=0;i<prices.length ;i++){
-            if (i==prices.length-1 && prices[i]> got  ) {
-                    profit+= prices[i] - got;
-                    break;
+            if( prices[i]> got){
+                profit+=prices[i]-got;
             }
-            else if ( prices[i]  > got && prices[i] > prices[i+1] ){ //팔어
-                profit+= prices[i] - got;
-                got=prices[i];
-            }
-            else if( got > prices[i]){
-                got=prices[i];
-            }
+            got=prices[i];
         }
+
 
         return profit;
         
