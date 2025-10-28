@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/hyojKim2/LeetCode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/hyojKim2/LeetCode/tree/master/0011-container-with-most-water) |
+| [0027-remove-element](https://github.com/hyojKim2/LeetCode/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/hyojKim2/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/hyojKim2/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/hyojKim2/LeetCode/tree/master/0198-house-robber) |
@@ -41,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/hyojKim2/LeetCode/tree/master/0011-container-with-most-water) |
+| [0027-remove-element](https://github.com/hyojKim2/LeetCode/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/hyojKim2/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0151-reverse-words-in-a-string](https://github.com/hyojKim2/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0283-move-zeroes](https://github.com/hyojKim2/LeetCode/tree/master/0283-move-zeroes) |
