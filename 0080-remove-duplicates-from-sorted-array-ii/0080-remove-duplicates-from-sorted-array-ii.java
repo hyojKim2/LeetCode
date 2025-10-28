@@ -7,13 +7,10 @@ class Solution {
 
         for(int i=1;i<nums.length;i++){
 
-            //이전과 동일 케이스
             if( nums[i] ==nums[i-1]){
                 nums[k]=nums[i];
-                if(cnt<2){
+                if(cnt<2){ //k움직여줌.
                     k++;
-                }
-                else{
                 }
                 cnt++;
             }
