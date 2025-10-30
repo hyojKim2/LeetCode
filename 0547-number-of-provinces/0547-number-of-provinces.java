@@ -29,7 +29,7 @@ class Solution {
 
         visit[city] = true;// 방문설정
         for(int i=0;i<conMap.length;i++){ //연결된 도시 방문 
-                if(i!=city && visit[i]!=true && conMap[city][i]==1 ) DFS(i);
+                if(visit[i]!=true && conMap[city][i]==1 ) DFS(i);
         }
     }
 }
