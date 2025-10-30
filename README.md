@@ -199,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/hyojKim2/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/hyojKim2/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/hyojKim2/LeetCode/tree/master/0437-path-sum-iii) |
+| [0547-number-of-provinces](https://github.com/hyojKim2/LeetCode/tree/master/0547-number-of-provinces) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/hyojKim2/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0871-keys-and-rooms](https://github.com/hyojKim2/LeetCode/tree/master/0871-keys-and-rooms) |
 | [0904-leaf-similar-trees](https://github.com/hyojKim2/LeetCode/tree/master/0904-leaf-similar-trees) |
@@ -211,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/hyojKim2/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/hyojKim2/LeetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/hyojKim2/LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [0547-number-of-provinces](https://github.com/hyojKim2/LeetCode/tree/master/0547-number-of-provinces) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/hyojKim2/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0871-keys-and-rooms](https://github.com/hyojKim2/LeetCode/tree/master/0871-keys-and-rooms) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/hyojKim2/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -237,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/hyojKim2/LeetCode/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/hyojKim2/LeetCode/tree/master/0871-keys-and-rooms) |
 ## Memoization
 |  |
@@ -254,4 +257,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/hyojKim2/LeetCode/tree/master/0169-majority-element) |
+## Union Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/hyojKim2/LeetCode/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
