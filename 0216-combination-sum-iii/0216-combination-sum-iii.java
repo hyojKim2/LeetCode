@@ -30,15 +30,10 @@ class Solution {
         for(int i=start;i<=9;i++){
             if(!list.contains(i)){ //사용되지 않은 자연수만
                 list.add(i);
-                sum+=i;
-                dfs(i+1, sum, list, ans, target);
-                sum-=i;
+                dfs(i+1, sum+i, list, ans, target);
                 list.remove(list.size()-1);
             }
         }
-
-
-        return;
 
     }
 
