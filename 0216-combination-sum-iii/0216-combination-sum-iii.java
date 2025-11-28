@@ -17,10 +17,10 @@ class Solution {
         
     }
 
-    public void dfs(int start, int sum, List<Integer> list,  int ans, int target){
+    public void dfs(int start, int sum, List<Integer> list,  int n, int k){
         
-        if(list.size()==target){
-            if(sum==ans && !answer.contains(list)) {
+        if(list.size()==k){
+            if(sum==n) {
                 answer.add(new ArrayList<>(list));
             }
             return;            
@@ -30,7 +30,7 @@ class Solution {
         for(int i=start;i<=9;i++){
             if(!list.contains(i)){ //사용되지 않은 자연수만
                 list.add(i);
-                dfs(i+1, sum+i, list, ans, target);
+                dfs(i+1, sum+i, list, n, k);
                 list.remove(list.size()-1);
             }
         }
