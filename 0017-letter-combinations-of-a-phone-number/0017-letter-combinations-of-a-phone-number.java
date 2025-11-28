@@ -27,17 +27,20 @@ class Solution {
 
     public void dfs(int index, int[]arr, StringBuilder sb){
 
-        // 
+        // 다 만들었으면 추가하기 
         if(index==arr.length){
             answer.add(sb.toString());
             return;
         }
 
+        // 현재 차례 번호의 문자 가져오기 
         int digit=arr[index];
         List<Character> list = map.get(digit);
+
+        // 번호가 가진 문자 기준 빌딩
         for(char ch:list){
             sb.append(ch);
-            dfs(index +1, arr, sb);
+            dfs(index +1, arr, sb); // 다음 인덱스로 넘어감. 
             sb.deleteCharAt(sb.length()-1); // backtrack;''
         }
     }
