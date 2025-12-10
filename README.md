@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/hyojKim2/LeetCode/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/hyojKim2/LeetCode/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/hyojKim2/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0169-majority-element](https://github.com/hyojKim2/LeetCode/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/hyojKim2/LeetCode/tree/master/0383-ransom-note) |
@@ -70,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/hyojKim2/LeetCode/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/hyojKim2/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/hyojKim2/LeetCode/tree/master/0020-valid-parentheses) |
 | [0058-length-of-last-word](https://github.com/hyojKim2/LeetCode/tree/master/0058-length-of-last-word) |
@@ -89,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/hyojKim2/LeetCode/tree/master/0013-roman-to-integer) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/hyojKim2/LeetCode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/hyojKim2/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 ## Greedy
