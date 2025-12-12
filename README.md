@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/hyojKim2/LeetCode/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/hyojKim2/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0169-majority-element](https://github.com/hyojKim2/LeetCode/tree/master/0169-majority-element) |
+| [0205-isomorphic-strings](https://github.com/hyojKim2/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0383-ransom-note](https://github.com/hyojKim2/LeetCode/tree/master/0383-ransom-note) |
 | [1319-unique-number-of-occurrences](https://github.com/hyojKim2/LeetCode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/hyojKim2/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -78,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0071-simplify-path](https://github.com/hyojKim2/LeetCode/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/hyojKim2/LeetCode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/hyojKim2/LeetCode/tree/master/0151-reverse-words-in-a-string) |
+| [0205-isomorphic-strings](https://github.com/hyojKim2/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0345-reverse-vowels-of-a-string](https://github.com/hyojKim2/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/hyojKim2/LeetCode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/hyojKim2/LeetCode/tree/master/0392-is-subsequence) |
