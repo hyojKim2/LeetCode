@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0724-find-pivot-index](https://github.com/hyojKim2/LeetCode/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/hyojKim2/LeetCode/tree/master/0735-asteroid-collision) |
 | [0747-min-cost-climbing-stairs](https://github.com/hyojKim2/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
+| [0994-rotting-oranges](https://github.com/hyojKim2/LeetCode/tree/master/0994-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/hyojKim2/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1319-unique-number-of-occurrences](https://github.com/hyojKim2/LeetCode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/hyojKim2/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -159,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0994-rotting-oranges](https://github.com/hyojKim2/LeetCode/tree/master/0994-rotting-oranges) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/hyojKim2/LeetCode/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2428-equal-row-and-column-pairs](https://github.com/hyojKim2/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 ## Simulation
@@ -243,6 +245,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/hyojKim2/LeetCode/tree/master/0547-number-of-provinces) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/hyojKim2/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0871-keys-and-rooms](https://github.com/hyojKim2/LeetCode/tree/master/0871-keys-and-rooms) |
+| [0994-rotting-oranges](https://github.com/hyojKim2/LeetCode/tree/master/0994-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/hyojKim2/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/hyojKim2/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/hyojKim2/LeetCode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
