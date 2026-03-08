@@ -1,25 +1,34 @@
-import java.util.*;
-
 class SmallestInfiniteSet {
-    //직접 힙을 만들어보는 문제. 
 
-    private PriorityQueue<Integer> pq; //전역 변수 선언
-    public SmallestInfiniteSet() { // 초기화 함수 
-        pq= new PriorityQueue <>();//우선순위 큐 힙 초기화 
+    private static PriorityQueue<Integer> heap;
 
+    //초기화. 양수를 갖는 셋을 초기화
+    public SmallestInfiniteSet() {
+        
+        heap = new PriorityQueue<>();
+        
         for(int i=1;i<=1000;i++){
-            pq.offer(i); //1~1000을 힙에 넣어주기 
+            heap.add(i);
         }
+
+    }
+    
+    // 가장 작은 수를 없앤다. -> 최소힙!
+    public int popSmallest() {
+        
+        int min=heap.peek();
+        heap.remove(min);
+        return min;
         
     }
     
-    public int popSmallest() { //top 반환 및 제거
-        return pq.poll();
-    }
-    
-    public void addBack(int num) { //중복아닌 
-        if(!pq.contains(num))
-            pq.add(num);
+    // 수 추가 
+    public void addBack(int num) {
+
+        if(heap.contains(num)){
+            return;
+        }
+        heap.add(num);
     }
 }
 
