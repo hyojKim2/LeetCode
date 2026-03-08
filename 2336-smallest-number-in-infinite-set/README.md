@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/smallest-number-in-infinite-set/">2336. Smallest Number in Infinite Set</a></h2><h3>Medium</h3><hr><div><p>You have a set which contains all positive integers <code>[1, 2, 3, 4, 5, ...]</code>.</p>
+<h2><a href="https://leetcode.com/problems/smallest-number-in-infinite-set">2413. Smallest Number in Infinite Set</a></h2><h3>Medium</h3><hr><p>You have a set which contains all positive integers <code>[1, 2, 3, 4, 5, ...]</code>.</p>
 
 <p>Implement the <code>SmallestInfiniteSet</code> class:</p>
 
@@ -11,8 +11,9 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input</strong>
-["SmallestInfiniteSet", "addBack", "popSmallest", "popSmallest", "popSmallest", "addBack", "popSmallest", "popSmallest", "popSmallest"]
+<pre>
+<strong>Input</strong>
+[&quot;SmallestInfiniteSet&quot;, &quot;addBack&quot;, &quot;popSmallest&quot;, &quot;popSmallest&quot;, &quot;popSmallest&quot;, &quot;addBack&quot;, &quot;popSmallest&quot;, &quot;popSmallest&quot;, &quot;popSmallest&quot;]
 [[], [2], [], [], [], [1], [], [], []]
 <strong>Output</strong>
 [null, null, 1, 2, 3, null, 1, 4, 5]
@@ -37,4 +38,3 @@ smallestInfiniteSet.popSmallest(); // return 5, and remove it from the set.
 	<li><code>1 &lt;= num &lt;= 1000</code></li>
 	<li>At most <code>1000</code> calls will be made <strong>in total</strong> to <code>popSmallest</code> and <code>addBack</code>.</li>
 </ul>
-</div>
