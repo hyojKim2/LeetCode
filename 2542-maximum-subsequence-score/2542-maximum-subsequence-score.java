@@ -26,6 +26,7 @@ class Solution {
             heap.add(p[1]);
             sum += p[1];
 
+            //작은건 버려서, heap을 num1합 최대로 유지한다. 
             if(heap.size() > k){
                 sum -= heap.poll();
             }
