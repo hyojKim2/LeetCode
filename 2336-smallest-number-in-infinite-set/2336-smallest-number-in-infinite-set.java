@@ -16,9 +16,7 @@ class SmallestInfiniteSet {
     // 가장 작은 수를 없앤다. -> 최소힙!
     public int popSmallest() {
         
-        int min=heap.peek();
-        heap.remove(min);
-        return min;
+        return heap.poll();
         
     }
     
